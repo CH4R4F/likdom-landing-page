@@ -1,0 +1,73 @@
+@use "../inc/breakpoint" as *;
+@use "../inc/variables" as *;
+
+footer {
+  background: url("/src/images/bg-footer.svg");
+  padding: 40px 25px;
+
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    padding: 60px 0;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__nav--title {
+      color: $primary-clr-dark;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      font-size: 1.3rem;
+    }
+    ul {
+      padding: 0;
+      li {
+        margin-bottom: 0.6rem;
+      }
+      a {
+        color: white;
+      }
+    }
+    .footer__info {
+      grid-column: span 2;
+      justify-self: center;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+    }
+    .footer__media {
+      grid-column: span 2;
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+
+        a {
+          width: 30px;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          background: white;
+
+          i {
+            color: $primary-clr;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include min-width(900px) {
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+
+    .footer__info {
+      grid-column: 3 / 4 !important;
+    }
+    .footer__media {
+      grid-column: 3 / 4 !important;
+    }
+  }
+}

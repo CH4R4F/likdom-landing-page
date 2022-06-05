@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Likdom | Home</title>
+  </head>
+  <body>
+    <div class="to__top">
+      <a href="#top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+    </div>
+    <div class="header__container" id="top">
+      <header>
+        <!-- desktop navigation -->
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="../src/images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="nav__btns">
+            <a href="#" class="nav__btns--reserve"> Reserve </a>
+            <a href="#" class="nav__btns--register"> Rejoindre Linkdom </a>
+            <a href="#" class="nav__btns--subscribe"> Abonnement </a>
+            <a href="#" class="nav__btns--login"> Connexion </a>
+            <a href="#" class="nav__btns--pro"> Linkdom Pro </a>
+          </div>
+        </nav>
+        <!-- mobile navigation -->
+        <div class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="mobileNav">
+          <div class="mobileNav__logo">
+            <img src="../src/images/logo.png" alt="" />
+            <span>&times;</span>
+          </div>
+          <ul class="mobileNav__links">
+            <li class="mobileNav__link"><a href="#">Accueil</a></li>
+            <li class="mobileNav__link"><a href="#">Services</a></li>
+            <li class="mobileNav__link"><a href="#">Reserver</a></li>
+            <li class="mobileNav__link"><a href="#">FAQs</a></li>
+            <li class="mobileNav__link"><a href="#">Professionnel</a></li>
+          </ul>
+        </div>
+        <!-- desktop hero section -->
+        <section class="hero">
+          <div class="hero__intro">
+            <h4>Faites votre menage differemment !</h4>
+            <p>Likdom vous propose un passage ménager rapide et satisfaisant en seulement en quelques cliques.</p>
+            <div class="intro__card">
+              <div class="icons">
+                <div>
+                  <svg class="intro__card--icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <linearGradient id="linear-GM" x1="0.126" y1="-0.085" x2="0.553" y2="0.668" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#899198" />
+                        <stop offset="1" stop-color="#787e85" />
+                      </linearGradient>
+                      <linearGradient id="linear-GM-2" x1="-0.084" y1="-0.132" x2="0.741" y2="1.113" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#00b4f0" />
+                        <stop offset="1" stop-color="#0082db" />
+                      </linearGradient>
+                      <linearGradient id="linear-GM-3" x1="-0.064" y1="-0.081" x2="0.86" y2="0.871" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#737b80" />
+                        <stop offset="0.473" stop-color="#686f74" />
+                        <stop offset="1" stop-color="#575c61" />
+                      </linearGradient>
+                    </defs>
+                    <g data-name="Grand Ménage" transform="translate(0.179 0.465)">
+                      <g class="g-hexagon" data-name="Hexagon 60% opacity" transform="translate(57.06 -0.465) rotate(30)" stroke-linecap="round">
+                        <path fill="#fff" d="M84.612.053a20.065,20.065,0,0,1,17.323,10.026L123.451,47.2a20.193,20.193,0,0,1,.025,20.22L102.05,104.5a19.949,19.949,0,0,1-17.3,9.983l-43.186-.053A20.065,20.065,0,0,1,24.242,104.4L2.725,67.275A20.193,20.193,0,0,1,2.7,47.055L24.127,9.983A19.949,19.949,0,0,1,41.426,0Z" stroke="none" />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493FF"
+                        />
+                      </g>
+                      <g transform="translate(53.821 46.035)">
+                        <path id="Tracé_4503" data-name="Tracé 4503" d="M23.5,41.975V18.507C23.5,11.876,27.581,6.5,32.614,6.5h0c5.034,0,9.114,5.376,9.114,12.007V56.928" transform="translate(3.982 0)" fill="none" stroke="#999" stroke-width="3" />
+                        <path id="Tracé_4504" data-name="Tracé 4504" d="M42.076,40.076H36V35.215A1.216,1.216,0,0,1,37.215,34h3.646a1.216,1.216,0,0,1,1.215,1.215Z" transform="translate(6.672 18.067)" fill="url(#linear-GM)" />
+                        <path id="Tracé_4505" data-name="Tracé 4505" d="M27.076,33.076H21V28.215A1.216,1.216,0,0,1,22.215,27h3.646a1.216,1.216,0,0,1,1.215,1.215Z" transform="translate(3.444 12.327)" fill="#53616a" />
+                        <path id="Tracé_4506" data-name="Tracé 4506" d="M46.583,43.076H33.215A1.216,1.216,0,0,1,32,41.861V39.43A2.43,2.43,0,0,1,34.43,37H45.368a2.43,2.43,0,0,1,2.43,2.43v2.43A1.216,1.216,0,0,1,46.583,43.076Z" transform="translate(5.811 18.712)" fill="#53616a" />
+                        <path id="Tracé_4507" data-name="Tracé 4507" d="M7,45.222H28.036A6.869,6.869,0,0,0,34.95,38.4h0c0-2.923-2.149-4.59-4.693-6.46C26.574,29.42,7,20.737,7,35.09Z" transform="translate(0.43 16.567)" fill="url(#linear-GM-2)" />
+                        <circle id="Ellipse_44" data-name="Ellipse 44" cx="5.458" cy="5.458" r="5.458" transform="translate(5 52.045)" fill="url(#linear-GM-3)" />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Ménage Simple</p>
+                </div>
+                <div>
+                  <svg class="pill-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <linearGradient id="linear-sm-gradient" x1="0.5" y1="-0.015" x2="0.5" y2="1.033" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#7395cf" />
+                        <stop offset="1" stop-color="#3d5b8e" />
+                      </linearGradient>
+                      <radialGradient id="radial-sm-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffe299" />
+                        <stop offset="0.396" stop-color="#fdcb4d" />
+                        <stop offset="0.639" stop-color="#f7c13a" />
+                        <stop offset="1" stop-color="#f0b421" />
+                      </radialGradient>
+                      <linearGradient id="linear-sm-gradient-2" x1="0.5" y1="0.011" x2="0.5" y2="1.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#eba600" />
+                        <stop offset="1" stop-color="#c28200" />
+                      </linearGradient>
+                      <linearGradient id="linear-sm-gradient-3" x1="0.5" y1="0.965" x2="0.5" y2="-0.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffcf54" />
+                        <stop offset="0.261" stop-color="#fdcb4d" />
+                        <stop offset="0.639" stop-color="#f7c13a" />
+                        <stop offset="1" stop-color="#f0b421" />
+                      </linearGradient>
+                      <linearGradient id="linear-sm-gradient-4" y1="0.992" y2="0.056" xlink:href="#linear-sm-gradient-2" />
+                      <linearGradient id="linear-sm-gradient-5" y1="0.975" y2="0.048" xlink:href="#linear-sm-gradient-2" />
+                      <linearGradient id="linear-sm-gradient-6" x1="0.434" y1="-0.186" x2="0.553" y2="1.542" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#0d61a9" />
+                        <stop offset="1" stop-color="#16528c" />
+                      </linearGradient>
+                    </defs>
+                    <g id="Super_Ménage" data-name="Super Ménage" transform="translate(0.488 0.465)">
+                      <g class="g-hexagon" data-name="Hexagon 60% opacity" transform="translate(56.751 -0.465) rotate(30)" stroke-linecap="round">
+                        <path
+                          fill="#fff"
+                          d="M 84.77576446533203 110.4782867431641 L 84.75612640380859 110.478271484375 L 41.570068359375 110.4251480102539 C 38.77158737182617 110.4217300415039 36.0086669921875 109.6769256591797 33.5799674987793 108.2713088989258 C 31.14816665649414 106.8638916015625 29.115966796875 104.831428527832 27.70306587219238 102.3936462402344 L 6.18614673614502 65.26895141601562 C 3.285386562347412 60.2640266418457 3.276866436004639 54.05184936523438 6.163926601409912 49.05666732788086 L 27.59030723571777 11.98474788665771 C 28.99310684204102 9.55762767791748 31.01396560668945 7.535347938537598 33.43442535400391 6.136568069458008 C 35.85308837890625 4.738808155059814 38.60786819458008 3.999988079071045 41.40096664428711 3.999988079071045 L 41.42064666748047 4.000008106231689 L 84.60670471191406 4.053108215332031 C 87.40518951416016 4.056548118591309 90.16812896728516 4.801328182220459 92.59682464599609 6.206968307495117 C 95.02862548828125 7.614387989044189 97.06082916259766 9.646827697753906 98.47372436523438 12.08460807800293 L 119.9906234741211 49.20930862426758 C 122.8914031982422 54.21422958374023 122.8999252319336 60.42640686035156 120.0128631591797 65.42158508300781 L 98.58648681640625 102.4935073852539 C 97.18368530273438 104.9206466674805 95.16282653808594 106.9429244995117 92.74236297607422 108.3417053222656 C 90.32368469238281 109.7394714355469 87.56888580322266 110.4782867431641 84.77576446533203 110.4782867431641 Z"
+                          stroke="none"
+                        />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493ff"
+                        />
+                      </g>
+                      <g id="Super_Ménage_icon" data-name="Super Ménage icon" transform="translate(49.36 47.76)">
+                        <g id="Maison_icon" data-name="Maison icon" transform="translate(9.152 10.775)">
+                          <g id="Groupe_104" data-name="Groupe 104" transform="translate(0)">
+                            <path id="Tracé_5751" data-name="Tracé 5751" d="M47.374,39H6v2.341a2.32,2.32,0,0,0,2.3,2.341H45.075a2.32,2.32,0,0,0,2.3-2.341Z" transform="translate(-2.687 4.317)" fill="#a7a7a7" />
+                            <path id="Tracé_5752" data-name="Tracé 5752" d="M47.374,45.146H6V22.9L26.687,3,47.374,22.9Z" transform="translate(-2.687 -1.829)" fill="#ccc" />
+                            <path id="Tracé_5753" data-name="Tracé 5753" d="M19.171,25H30.878a1.171,1.171,0,0,1,1.171,1.171v19.9H18v-19.9A1.171,1.171,0,0,1,19.171,25Z" transform="translate(-1.024 1.927)" fill="#3d5b8e" />
+                            <path id="Tracé_5755" data-name="Tracé 5755" d="M26.687,4a2.269,2.269,0,0,0-1.524.589L19,10.221,6,22.732v6.31L26.687,10.355,47.374,29.042v-6.31l-13-12.51L28.211,4.589A2.269,2.269,0,0,0,26.687,4Z" transform="translate(-2.687 -1.659)" opacity="0.07" />
+                            <path id="Tracé_5756" data-name="Tracé 5756" d="M26.687,3a2.277,2.277,0,0,0-1.524.585L19,9.186,6,21.625V27.9L26.687,9.318,47.374,27.9V21.625l-13-12.439-6.159-5.6A2.277,2.277,0,0,0,26.687,3Z" transform="translate(-2.687 -1.829)" opacity="0.09" />
+                            <path id="Tracé_5757" data-name="Tracé 5757" d="M50.784,22.5,28.7,2.589a2.276,2.276,0,0,0-3.056,0L3.556,22.5a1.182,1.182,0,0,0-.074,1.674l1.885,2.043a1.139,1.139,0,0,0,1.6.078L27.17,8.355l20.2,17.938a1.14,1.14,0,0,0,1.6-.078l1.885-2.043A1.184,1.184,0,0,0,50.784,22.5Z" transform="translate(-3.17 -2)" fill="url(#linear-sm-gradient)" />
+                          </g>
+                        </g>
+                        <g id="icons8_sparkles_1" transform="translate(-2.377 -4.895)">
+                          <path id="Tracé_5801" data-name="Tracé 5801" d="M7.286,4.895h0A4.911,4.911,0,0,0,12.195,9.8h0a4.911,4.911,0,0,0-4.909,4.909h0A4.911,4.911,0,0,0,2.377,9.8h0A4.911,4.911,0,0,0,7.286,4.895Z" fill="url(#radial-sm-gradient)" />
+                          <path id="Tracé_5813" data-name="Tracé 5813" d="M10.792,29.789h0a4.034,4.034,0,0,0,4.034,4.034h0a4.034,4.034,0,0,0-4.034,4.034h0a4.034,4.034,0,0,0-4.034-4.034h0a4.034,4.034,0,0,0,4.034-4.034Z" transform="translate(-1.484 -9.168)" fill="url(#radial-sm-gradient)" />
+                          <path id="Tracé_5826" data-name="Tracé 5826" d="M21.631,7.126h0A11.459,11.459,0,0,0,33.263,18.389h0A11.459,11.459,0,0,0,21.631,29.651h0A11.459,11.459,0,0,0,10,18.389h0A11.459,11.459,0,0,0,21.631,7.126Z" transform="translate(-2.886 -0.756)" fill="url(#radial-sm-gradient)" />
+                        </g>
+                        <g id="icons8_broom_1" transform="translate(37.152 30.775)">
+                          <path id="Tracé_5827" data-name="Tracé 5827" d="M24.687,12.061H21V2.844A1.843,1.843,0,0,1,22.844,1h0a1.843,1.843,0,0,1,1.844,1.844Z" transform="translate(-5.844)" fill="url(#linear-sm-gradient-2)" />
+                          <rect id="Rectangle_372" data-name="Rectangle 372" width="3.513" height="3.513" transform="translate(15.307 8.55)" fill="#16528c" />
+                          <path id="Tracé_5828" data-name="Tracé 5828" d="M25.556,24H8.444A75.233,75.233,0,0,1,6,35.676,47.768,47.768,0,0,0,17,36.9a47.767,47.767,0,0,0,11-1.229A75.233,75.233,0,0,1,25.556,24Z" transform="translate(0 -8.905)" fill="url(#linear-sm-gradient-3)" />
+                          <path id="Tracé_5829" data-name="Tracé 5829" d="M16.973,40.623V34a40.466,40.466,0,0,1-1.636,6.481C15.855,40.534,16.4,40.582,16.973,40.623Z" transform="translate(-3.634 -12.76)" fill="url(#linear-sm-gradient-4)" />
+                          <path id="Tracé_5830" data-name="Tracé 5830" d="M32.711,38.476A84.307,84.307,0,0,1,31,29v9.648C31.6,38.6,32.172,38.539,32.711,38.476Z" transform="translate(-9.729 -10.832)" fill="url(#linear-sm-gradient-5)" />
+                          <path id="Tracé_5831" data-name="Tracé 5831" d="M27.084,21.3H10V19.6a1.833,1.833,0,0,1,1.371-1.785A29.425,29.425,0,0,1,18.542,17a29.425,29.425,0,0,1,7.171.814A1.833,1.833,0,0,1,27.084,19.6Z" transform="translate(-1.542 -6.184)" fill="url(#linear-sm-gradient-6)" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Grand Ménage</p>
+                </div>
+                <div>
+                  <svg class="intro__card--icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <linearGradient id="linear-MP" x1="2.589" y1="0.5" x2="0.057" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#f9f9f9" />
+                        <stop offset="0.966" stop-color="#c4c9cd" />
+                        <stop offset="1" stop-color="#c2c8cc" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-2" x1="2.112" x2="-0.012" xlink:href="#linear-MP" />
+                      <linearGradient id="linear-MP-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#2aa4f4" />
+                        <stop offset="1" stop-color="#007ad9" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-6" x1="0.5" y1="-0.652" x2="0.5" y2="0.992" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#a3ffff" />
+                        <stop offset="0.223" stop-color="#9dfbff" />
+                        <stop offset="0.53" stop-color="#8bf1ff" />
+                        <stop offset="0.885" stop-color="#6ee0ff" />
+                        <stop offset="1" stop-color="#63daff" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-7" y1="-0.199" y2="0.965" xlink:href="#linear-MP-6" />
+                      <linearGradient id="linear-MP-9" x1="2.074" x2="0.02" xlink:href="#linear-MP" />
+                    </defs>
+                    <g data-name="Ménage Personnalisable" transform="translate(-0.166 0.465)">
+                      <g id="Tracé_4498" class="g-hexagon" data-name="Tracé 4498" transform="translate(57.405 -0.465) rotate(30)" stroke-linecap="round">
+                        <path fill="#fff" d="M84.612.053a20.065,20.065,0,0,1,17.323,10.026L123.451,47.2a20.193,20.193,0,0,1,.025,20.22L102.05,104.5a19.949,19.949,0,0,1-17.3,9.983l-43.186-.053A20.065,20.065,0,0,1,24.242,104.4L2.725,67.275A20.193,20.193,0,0,1,2.7,47.055L24.127,9.983A19.949,19.949,0,0,1,41.426,0Z" stroke="none" />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493FF"
+                        />
+                      </g>
+                      <g transform="translate(54.166 52.535)">
+                        <path id="Tracé_4519" data-name="Tracé 4519" d="M37,22h6.389a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H37Z" transform="translate(8.889 4.444)" fill="url(#linear-MP)" />
+                        <path id="Tracé_4520" data-name="Tracé 4520" d="M28,8H45.889a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H28Z" transform="translate(6.389 0.556)" fill="url(#linear-MP-2)" />
+                        <path id="Tracé_4521" data-name="Tracé 4521" d="M30.556,8H6.278A1.278,1.278,0,0,0,5,9.278v2.556a1.278,1.278,0,0,0,1.278,1.278H30.556Z" transform="translate(0 0.556)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4522" data-name="Tracé 4522" d="M43.333,22H6.278A1.278,1.278,0,0,0,5,23.278v2.556a1.278,1.278,0,0,0,1.278,1.278H43.333Z" transform="translate(0 4.444)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4523" data-name="Tracé 4523" d="M21.611,36H6.278A1.278,1.278,0,0,0,5,37.278v2.556a1.278,1.278,0,0,0,1.278,1.278H21.611Z" transform="translate(0 8.333)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4524" data-name="Tracé 4524" d="M28.75,16.222H23.639A.639.639,0,0,1,23,15.583V6.639A.639.639,0,0,1,23.639,6H28.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,28.75,16.222Z" transform="translate(5 0)" fill="url(#linear-MP-6)" />
+                        <path id="Tracé_4525" data-name="Tracé 4525" d="M37.75,30.222H32.639A.639.639,0,0,1,32,29.583V20.639A.639.639,0,0,1,32.639,20H37.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,37.75,30.222Z" transform="translate(7.5 3.889)" fill="url(#linear-MP-7)" />
+                        <path id="Tracé_4526" data-name="Tracé 4526" d="M21.75,44.222H16.639A.639.639,0,0,1,16,43.583V34.639A.639.639,0,0,1,16.639,34H21.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,21.75,44.222Z" transform="translate(3.056 7.778)" fill="url(#linear-MP-6)" />
+                        <path id="Tracé_4527" data-name="Tracé 4527" d="M21,36H47.833a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H21Z" transform="translate(4.444 8.333)" fill="url(#linear-MP-9)" />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Ménage Personnalisable</p>
+                </div>
+                <div>
+                  <svg class="intro__card--icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <radialGradient id="radial-gradient" cx="0.356" cy="0.362" r="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#a3ffff" />
+                        <stop offset="0.223" stop-color="#9dfbff" />
+                        <stop offset="0.53" stop-color="#8bf1ff" />
+                        <stop offset="0.885" stop-color="#6ee0ff" />
+                        <stop offset="1" stop-color="#63daff" />
+                      </radialGradient>
+                      <radialGradient id="radial-gradient-2" cx="0.344" cy="0.387" xlink:href="#radial-gradient" />
+                      <linearGradient id="linear-MS" x1="0.5" y1="22.246" x2="0.5" y2="21.028" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#bd4ff4" />
+                        <stop offset="0.587" stop-color="#a235ec" />
+                        <stop offset="1" stop-color="#8c20e5" />
+                      </linearGradient>
+                      <linearGradient id="linear-MS-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#c965eb" />
+                        <stop offset="1" stop-color="#c767e5" />
+                      </linearGradient>
+                      <radialGradient id="radial-gradient-4" cx="0.333" cy="0.375" xlink:href="#radial-gradient" />
+                      <linearGradient id="linear-MS-3" x1="0.5" y1="0.011" x2="0.5" y2="1.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#eba600" />
+                        <stop offset="1" stop-color="#c28200" />
+                      </linearGradient>
+                      <linearGradient id="linear-MS-4" x1="0.5" y1="0.035" x2="0.5" y2="1.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffcf54" />
+                        <stop offset="0.261" stop-color="#fdcb4d" />
+                        <stop offset="0.639" stop-color="#f7c13a" />
+                        <stop offset="1" stop-color="#f0b421" />
+                      </linearGradient>
+                      <linearGradient id="linear-MS-5" x1="0.476" y1="1.17" x2="0.633" y2="0.055" xlink:href="#linear-MS-3" />
+                      <linearGradient id="linear-MS-6" x1="0.589" y1="1.111" x2="-0.233" y2="0.088" xlink:href="#linear-MS-3" />
+                      <linearGradient id="linear-MS-7" x1="0.422" y1="119.085" x2="0.559" y2="117.594" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#0d61a9" />
+                        <stop offset="1" stop-color="#16528c" />
+                      </linearGradient>
+                      <linearGradient id="linear-MS-8" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#393c40" />
+                        <stop offset="0.102" stop-color="#35383c" />
+                        <stop offset="0.471" stop-color="#2d3033" />
+                        <stop offset="1" stop-color="#2b2e30" />
+                      </linearGradient>
+                    </defs>
+                    <g data-name="Ménage Simple" transform="translate(-0.475 0.465)">
+                      <g class="g-hexagon" data-name="hexagon 100% opacity" transform="translate(57.714 -0.465) rotate(30)" stroke-linecap="round">
+                        <path fill="#fff" d="M84.612.053a20.065,20.065,0,0,1,17.323,10.026L123.451,47.2a20.193,20.193,0,0,1,.025,20.22L102.05,104.5a19.949,19.949,0,0,1-17.3,9.983l-43.186-.053A20.065,20.065,0,0,1,24.242,104.4L2.725,67.275A20.193,20.193,0,0,1,2.7,47.055L24.127,9.983A19.949,19.949,0,0,1,41.426,0Z" stroke="none" />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493FF"
+                        />
+                      </g>
+                      <g transform="translate(52.02 52.535)">
+                        <path id="Tracé_4508" data-name="Tracé 4508" d="M19.421,14a4.421,4.421,0,1,0,4.421,4.421A4.421,4.421,0,0,0,19.421,14Z" transform="translate(1.986 2.368)" fill="url(#radial-gradient)" />
+                        <circle id="Ellipse_45" data-name="Ellipse 45" cx="7.579" cy="7.579" r="7.579" transform="translate(10.67 20.158)" fill="url(#radial-gradient-2)" />
+                        <circle id="Ellipse_46" data-name="Ellipse 46" cx="8.842" cy="8.842" r="8.842" transform="translate(20.775 15.105)" fill="url(#radial-gradient-2)" />
+                        <path id="Tracé_4509" data-name="Tracé 4509" d="M34.922,48.789h-22.1a1.986,1.986,0,0,1-1.981-1.848L9.058,22.061A.993.993,0,0,1,10.049,21H37.7a.993.993,0,0,1,.99,1.061L36.9,46.941A1.986,1.986,0,0,1,34.922,48.789Z" transform="translate(0.421 4.211)" fill="url(#linear-MS)" />
+                        <path id="Tracé_4510" data-name="Tracé 4510" d="M37.782,26.955H9.993A.993.993,0,0,1,9,25.963v-3.97A.993.993,0,0,1,9.993,21H37.782a.993.993,0,0,1,.993.993v3.97A.994.994,0,0,1,37.782,26.955Z" transform="translate(0.407 4.211)" fill="url(#linear-MS-2)" />
+                        <path id="Tracé_4511" data-name="Tracé 4511" d="M26.033,47.917h4.421a1.986,1.986,0,0,0,1.981-1.848l1.449-20.2a.973.973,0,0,0,.409-.782v-.776a18.715,18.715,0,0,0-2.435.625,3.4,3.4,0,0,0-2.077,3.3L29.795,30c-.969,6.467-3.661,17.511-3.688,17.622Z" transform="translate(4.889 5.083)" opacity="0.05" />
+                        <circle id="Ellipse_47" data-name="Ellipse 47" cx="2.526" cy="2.526" r="2.526" transform="translate(8.144 7.526)" fill="url(#radial-gradient-4)" />
+                        <path id="Tracé_4512" data-name="Tracé 4512" d="M26.548,47.783h3.771A1.986,1.986,0,0,0,32.3,45.935l1.449-20.2a.973.973,0,0,0,.409-.782v-.133a18.055,18.055,0,0,0-2.233.58,2.766,2.766,0,0,0-1.646,2.7l.006,1.856c-.975,6.51-3.672,17.567-3.7,17.678Z" transform="translate(5.025 5.217)" opacity="0.07" />
+                        <path id="Tracé_4513" data-name="Tracé 4513" d="M39.053,31.165H34V7.526A2.526,2.526,0,0,1,36.526,5h0a2.526,2.526,0,0,1,2.526,2.526Z" transform="translate(6.986)" fill="url(#linear-MS-3)" />
+                        <path id="Tracé_4514" data-name="Tracé 4514" d="M45.763,28H30.941c-.8,6.356-3.879,18.947-3.879,18.947H49.641S46.563,34.356,45.763,28Z" transform="translate(5.16 6.053)" fill="url(#linear-MS-4)" />
+                        <rect id="Rectangle_263" data-name="Rectangle 263" width="5.053" height="6.316" transform="translate(40.986 25.211)" fill="#16528c" />
+                        <path id="Tracé_4515" data-name="Tracé 4515" d="M33.125,37.923a42.755,42.755,0,0,1-1.791,6.413h2.053Z" transform="translate(6.284 8.664)" fill="url(#linear-MS-5)" />
+                        <path id="Tracé_4516" data-name="Tracé 4516" d="M41.184,44.942c-.609-2.4-1.518-6.445-1.907-9.327l-.25,9.327Z" transform="translate(8.309 8.057)" fill="url(#linear-MS-6)" />
+                        <path id="Tracé_4517" data-name="Tracé 4517" d="M45.158,30.053H30v-2a2.14,2.14,0,0,1,1.216-2.1A20.1,20.1,0,0,1,37.579,25a20.1,20.1,0,0,1,6.363.956,2.14,2.14,0,0,1,1.216,2.1Z" transform="translate(5.933 5.263)" fill="url(#linear-MS-7)" />
+                        <path id="Tracé_4518" data-name="Tracé 4518" d="M7.767,38.033a1.264,1.264,0,0,0,1.811.093L24.215,24.581a1.263,1.263,0,1,0-1.662-1.9l-14.7,13.6a1.263,1.263,0,0,0-.09,1.756Z" transform="translate(0 4.57)" fill="url(#linear-MS-8)" />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Nettoyage à sec</p>
+                </div>
+                <div>
+                  <svg class="pill-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <linearGradient id="linear-sm-gradient" x1="0.5" y1="-0.015" x2="0.5" y2="1.033" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#7395cf" />
+                        <stop offset="1" stop-color="#3d5b8e" />
+                      </linearGradient>
+                      <radialGradient id="radial-sm-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffe299" />
+                        <stop offset="0.396" stop-color="#fdcb4d" />
+                        <stop offset="0.639" stop-color="#f7c13a" />
+                        <stop offset="1" stop-color="#f0b421" />
+                      </radialGradient>
+                      <linearGradient id="linear-sm-gradient-2" x1="0.5" y1="0.011" x2="0.5" y2="1.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#eba600" />
+                        <stop offset="1" stop-color="#c28200" />
+                      </linearGradient>
+                      <linearGradient id="linear-sm-gradient-3" x1="0.5" y1="0.965" x2="0.5" y2="-0.011" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffcf54" />
+                        <stop offset="0.261" stop-color="#fdcb4d" />
+                        <stop offset="0.639" stop-color="#f7c13a" />
+                        <stop offset="1" stop-color="#f0b421" />
+                      </linearGradient>
+                      <linearGradient id="linear-sm-gradient-4" y1="0.992" y2="0.056" xlink:href="#linear-sm-gradient-2" />
+                      <linearGradient id="linear-sm-gradient-5" y1="0.975" y2="0.048" xlink:href="#linear-sm-gradient-2" />
+                      <linearGradient id="linear-sm-gradient-6" x1="0.434" y1="-0.186" x2="0.553" y2="1.542" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#0d61a9" />
+                        <stop offset="1" stop-color="#16528c" />
+                      </linearGradient>
+                    </defs>
+                    <g id="Super_Ménage" data-name="Super Ménage" transform="translate(0.488 0.465)">
+                      <g class="g-hexagon" data-name="Hexagon 60% opacity" transform="translate(56.751 -0.465) rotate(30)" stroke-linecap="round">
+                        <path
+                          fill="#fff"
+                          d="M 84.77576446533203 110.4782867431641 L 84.75612640380859 110.478271484375 L 41.570068359375 110.4251480102539 C 38.77158737182617 110.4217300415039 36.0086669921875 109.6769256591797 33.5799674987793 108.2713088989258 C 31.14816665649414 106.8638916015625 29.115966796875 104.831428527832 27.70306587219238 102.3936462402344 L 6.18614673614502 65.26895141601562 C 3.285386562347412 60.2640266418457 3.276866436004639 54.05184936523438 6.163926601409912 49.05666732788086 L 27.59030723571777 11.98474788665771 C 28.99310684204102 9.55762767791748 31.01396560668945 7.535347938537598 33.43442535400391 6.136568069458008 C 35.85308837890625 4.738808155059814 38.60786819458008 3.999988079071045 41.40096664428711 3.999988079071045 L 41.42064666748047 4.000008106231689 L 84.60670471191406 4.053108215332031 C 87.40518951416016 4.056548118591309 90.16812896728516 4.801328182220459 92.59682464599609 6.206968307495117 C 95.02862548828125 7.614387989044189 97.06082916259766 9.646827697753906 98.47372436523438 12.08460807800293 L 119.9906234741211 49.20930862426758 C 122.8914031982422 54.21422958374023 122.8999252319336 60.42640686035156 120.0128631591797 65.42158508300781 L 98.58648681640625 102.4935073852539 C 97.18368530273438 104.9206466674805 95.16282653808594 106.9429244995117 92.74236297607422 108.3417053222656 C 90.32368469238281 109.7394714355469 87.56888580322266 110.4782867431641 84.77576446533203 110.4782867431641 Z"
+                          stroke="none"
+                        />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493ff"
+                        />
+                      </g>
+                      <g id="Super_Ménage_icon" data-name="Super Ménage icon" transform="translate(49.36 47.76)">
+                        <g id="Maison_icon" data-name="Maison icon" transform="translate(9.152 10.775)">
+                          <g id="Groupe_104" data-name="Groupe 104" transform="translate(0)">
+                            <path id="Tracé_5751" data-name="Tracé 5751" d="M47.374,39H6v2.341a2.32,2.32,0,0,0,2.3,2.341H45.075a2.32,2.32,0,0,0,2.3-2.341Z" transform="translate(-2.687 4.317)" fill="#a7a7a7" />
+                            <path id="Tracé_5752" data-name="Tracé 5752" d="M47.374,45.146H6V22.9L26.687,3,47.374,22.9Z" transform="translate(-2.687 -1.829)" fill="#ccc" />
+                            <path id="Tracé_5753" data-name="Tracé 5753" d="M19.171,25H30.878a1.171,1.171,0,0,1,1.171,1.171v19.9H18v-19.9A1.171,1.171,0,0,1,19.171,25Z" transform="translate(-1.024 1.927)" fill="#3d5b8e" />
+                            <path id="Tracé_5755" data-name="Tracé 5755" d="M26.687,4a2.269,2.269,0,0,0-1.524.589L19,10.221,6,22.732v6.31L26.687,10.355,47.374,29.042v-6.31l-13-12.51L28.211,4.589A2.269,2.269,0,0,0,26.687,4Z" transform="translate(-2.687 -1.659)" opacity="0.07" />
+                            <path id="Tracé_5756" data-name="Tracé 5756" d="M26.687,3a2.277,2.277,0,0,0-1.524.585L19,9.186,6,21.625V27.9L26.687,9.318,47.374,27.9V21.625l-13-12.439-6.159-5.6A2.277,2.277,0,0,0,26.687,3Z" transform="translate(-2.687 -1.829)" opacity="0.09" />
+                            <path id="Tracé_5757" data-name="Tracé 5757" d="M50.784,22.5,28.7,2.589a2.276,2.276,0,0,0-3.056,0L3.556,22.5a1.182,1.182,0,0,0-.074,1.674l1.885,2.043a1.139,1.139,0,0,0,1.6.078L27.17,8.355l20.2,17.938a1.14,1.14,0,0,0,1.6-.078l1.885-2.043A1.184,1.184,0,0,0,50.784,22.5Z" transform="translate(-3.17 -2)" fill="url(#linear-sm-gradient)" />
+                          </g>
+                        </g>
+                        <g id="icons8_sparkles_1" transform="translate(-2.377 -4.895)">
+                          <path id="Tracé_5801" data-name="Tracé 5801" d="M7.286,4.895h0A4.911,4.911,0,0,0,12.195,9.8h0a4.911,4.911,0,0,0-4.909,4.909h0A4.911,4.911,0,0,0,2.377,9.8h0A4.911,4.911,0,0,0,7.286,4.895Z" fill="url(#radial-sm-gradient)" />
+                          <path id="Tracé_5813" data-name="Tracé 5813" d="M10.792,29.789h0a4.034,4.034,0,0,0,4.034,4.034h0a4.034,4.034,0,0,0-4.034,4.034h0a4.034,4.034,0,0,0-4.034-4.034h0a4.034,4.034,0,0,0,4.034-4.034Z" transform="translate(-1.484 -9.168)" fill="url(#radial-sm-gradient)" />
+                          <path id="Tracé_5826" data-name="Tracé 5826" d="M21.631,7.126h0A11.459,11.459,0,0,0,33.263,18.389h0A11.459,11.459,0,0,0,21.631,29.651h0A11.459,11.459,0,0,0,10,18.389h0A11.459,11.459,0,0,0,21.631,7.126Z" transform="translate(-2.886 -0.756)" fill="url(#radial-sm-gradient)" />
+                        </g>
+                        <g id="icons8_broom_1" transform="translate(37.152 30.775)">
+                          <path id="Tracé_5827" data-name="Tracé 5827" d="M24.687,12.061H21V2.844A1.843,1.843,0,0,1,22.844,1h0a1.843,1.843,0,0,1,1.844,1.844Z" transform="translate(-5.844)" fill="url(#linear-sm-gradient-2)" />
+                          <rect id="Rectangle_372" data-name="Rectangle 372" width="3.513" height="3.513" transform="translate(15.307 8.55)" fill="#16528c" />
+                          <path id="Tracé_5828" data-name="Tracé 5828" d="M25.556,24H8.444A75.233,75.233,0,0,1,6,35.676,47.768,47.768,0,0,0,17,36.9a47.767,47.767,0,0,0,11-1.229A75.233,75.233,0,0,1,25.556,24Z" transform="translate(0 -8.905)" fill="url(#linear-sm-gradient-3)" />
+                          <path id="Tracé_5829" data-name="Tracé 5829" d="M16.973,40.623V34a40.466,40.466,0,0,1-1.636,6.481C15.855,40.534,16.4,40.582,16.973,40.623Z" transform="translate(-3.634 -12.76)" fill="url(#linear-sm-gradient-4)" />
+                          <path id="Tracé_5830" data-name="Tracé 5830" d="M32.711,38.476A84.307,84.307,0,0,1,31,29v9.648C31.6,38.6,32.172,38.539,32.711,38.476Z" transform="translate(-9.729 -10.832)" fill="url(#linear-sm-gradient-5)" />
+                          <path id="Tracé_5831" data-name="Tracé 5831" d="M27.084,21.3H10V19.6a1.833,1.833,0,0,1,1.371-1.785A29.425,29.425,0,0,1,18.542,17a29.425,29.425,0,0,1,7.171.814A1.833,1.833,0,0,1,27.084,19.6Z" transform="translate(-1.542 -6.184)" fill="url(#linear-sm-gradient-6)" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Cristallisation</p>
+                </div>
+                <div>
+                  <svg class="intro__card--icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.511 196">
+                    <defs>
+                      <linearGradient id="linear-MP" x1="2.589" y1="0.5" x2="0.057" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#f9f9f9" />
+                        <stop offset="0.966" stop-color="#c4c9cd" />
+                        <stop offset="1" stop-color="#c2c8cc" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-2" x1="2.112" x2="-0.012" xlink:href="#linear-MP" />
+                      <linearGradient id="linear-MP-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#2aa4f4" />
+                        <stop offset="1" stop-color="#007ad9" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-6" x1="0.5" y1="-0.652" x2="0.5" y2="0.992" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#a3ffff" />
+                        <stop offset="0.223" stop-color="#9dfbff" />
+                        <stop offset="0.53" stop-color="#8bf1ff" />
+                        <stop offset="0.885" stop-color="#6ee0ff" />
+                        <stop offset="1" stop-color="#63daff" />
+                      </linearGradient>
+                      <linearGradient id="linear-MP-7" y1="-0.199" y2="0.965" xlink:href="#linear-MP-6" />
+                      <linearGradient id="linear-MP-9" x1="2.074" x2="0.02" xlink:href="#linear-MP" />
+                    </defs>
+                    <g data-name="Ménage Personnalisable" transform="translate(-0.166 0.465)">
+                      <g id="Tracé_4498" class="g-hexagon" data-name="Tracé 4498" transform="translate(57.405 -0.465) rotate(30)" stroke-linecap="round">
+                        <path fill="#fff" d="M84.612.053a20.065,20.065,0,0,1,17.323,10.026L123.451,47.2a20.193,20.193,0,0,1,.025,20.22L102.05,104.5a19.949,19.949,0,0,1-17.3,9.983l-43.186-.053A20.065,20.065,0,0,1,24.242,104.4L2.725,67.275A20.193,20.193,0,0,1,2.7,47.055L24.127,9.983A19.949,19.949,0,0,1,41.426,0Z" stroke="none" />
+                        <path
+                          d="M 41.40095520019531 -1.52587890625e-05 L 41.40095520019531 7.999984741210938 C 37.15258026123047 7.999984741210938 33.18764495849609 10.29384613037109 31.05348205566406 13.98636627197266 L 9.6270751953125 51.05831909179688 C 7.454597473144531 54.81710433959961 7.462196350097656 59.49372482299805 9.64691162109375 63.26315307617188 L 31.163818359375 100.3878631591797 C 33.31912231445312 104.106559753418 37.30843353271484 106.4199142456055 41.57498168945312 106.4251556396484 L 84.77581787109375 106.478271484375 C 89.02421569824219 106.478271484375 92.98915100097656 104.184440612793 95.12331390380859 100.4918899536133 L 116.5496978759766 63.41996002197266 C 118.7221755981445 59.66115188598633 118.7145767211914 54.98453140258789 116.5298614501953 51.21510314941406 L 95.01295471191406 14.09041595458984 C 92.85765075683594 10.37169647216797 88.86833953857422 8.058341979980469 84.60179138183594 8.0531005859375 L 41.41571807861328 8.000007629394531 L 41.40095520019531 -1.52587890625e-05 M 41.40095520019531 -7.62939453125e-06 C 41.40922546386719 -7.62939453125e-06 41.41728210449219 0 41.42555236816406 7.62939453125e-06 L 84.61162567138672 0.0531005859375 C 91.74376678466797 0.06186676025390625 98.34214782714844 3.880744934082031 101.934455871582 10.07881927490234 L 123.4513626098633 47.20350646972656 C 127.0764312744141 53.45808029174805 127.0858383178711 61.17753219604492 123.4760513305664 67.42317199707031 L 102.049674987793 104.4951019287109 C 98.47248077392578 110.6843643188477 91.88145446777344 114.4870071411133 84.751220703125 114.4782485961914 L 41.56514739990234 114.4251556396484 C 34.43302917480469 114.416389465332 27.83462524414062 110.5975112915039 24.24231719970703 104.3994598388672 L 2.725410461425781 67.27474975585938 C -0.8996353149414062 61.02019882202148 -0.9090652465820312 53.30072402954102 2.70074462890625 47.05508422851562 L 24.12712097167969 9.983154296875 C 27.70016479492188 3.801094055175781 34.27836608886719 -7.62939453125e-06 41.40095520019531 -7.62939453125e-06 Z"
+                          stroke="none"
+                          fill="#5493FF"
+                        />
+                      </g>
+                      <g transform="translate(54.166 52.535)">
+                        <path id="Tracé_4519" data-name="Tracé 4519" d="M37,22h6.389a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H37Z" transform="translate(8.889 4.444)" fill="url(#linear-MP)" />
+                        <path id="Tracé_4520" data-name="Tracé 4520" d="M28,8H45.889a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H28Z" transform="translate(6.389 0.556)" fill="url(#linear-MP-2)" />
+                        <path id="Tracé_4521" data-name="Tracé 4521" d="M30.556,8H6.278A1.278,1.278,0,0,0,5,9.278v2.556a1.278,1.278,0,0,0,1.278,1.278H30.556Z" transform="translate(0 0.556)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4522" data-name="Tracé 4522" d="M43.333,22H6.278A1.278,1.278,0,0,0,5,23.278v2.556a1.278,1.278,0,0,0,1.278,1.278H43.333Z" transform="translate(0 4.444)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4523" data-name="Tracé 4523" d="M21.611,36H6.278A1.278,1.278,0,0,0,5,37.278v2.556a1.278,1.278,0,0,0,1.278,1.278H21.611Z" transform="translate(0 8.333)" fill="url(#linear-MP-3)" />
+                        <path id="Tracé_4524" data-name="Tracé 4524" d="M28.75,16.222H23.639A.639.639,0,0,1,23,15.583V6.639A.639.639,0,0,1,23.639,6H28.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,28.75,16.222Z" transform="translate(5 0)" fill="url(#linear-MP-6)" />
+                        <path id="Tracé_4525" data-name="Tracé 4525" d="M37.75,30.222H32.639A.639.639,0,0,1,32,29.583V20.639A.639.639,0,0,1,32.639,20H37.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,37.75,30.222Z" transform="translate(7.5 3.889)" fill="url(#linear-MP-7)" />
+                        <path id="Tracé_4526" data-name="Tracé 4526" d="M21.75,44.222H16.639A.639.639,0,0,1,16,43.583V34.639A.639.639,0,0,1,16.639,34H21.75a.639.639,0,0,1,.639.639v8.944A.639.639,0,0,1,21.75,44.222Z" transform="translate(3.056 7.778)" fill="url(#linear-MP-6)" />
+                        <path id="Tracé_4527" data-name="Tracé 4527" d="M21,36H47.833a1.278,1.278,0,0,1,1.278,1.278v2.556a1.278,1.278,0,0,1-1.278,1.278H21Z" transform="translate(4.444 8.333)" fill="url(#linear-MP-9)" />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Désinfection</p>
+                </div>
+              </div>
+              <div class="intro__btns">
+                <button class="intro__btns--left">Voir les taches incluses</button>
+                <button class="intro__btns--right">Réserver un passage</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image">
+            <div class="hero__image--callus">
+              <p>Appelez-nous</p>
+              <a href="tel:+212633533433" class="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                +212 633 533 433
+              </a>
+            </div>
+            <div>
+              <img src="../src/images/hero.svg" alt="" />
+            </div>
+          </div>
+        </section>
+        <!-- mobile hero section -->
+        <section class="heroMobile">
+          <div class="heroMobile__top">
+            <div class="heroMobile__top--text">
+              <img src="../src/images/logo-dark.png" alt="" />
+              <h2 class="hero__title">
+                Choisissez votre service
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.307" height="37.598" viewBox="0 0 36.307 37.598">
+                  <defs>
+                    <filter id="icons8_downward_arrow" x="0" y="0" width="36.307" height="37.598" filterUnits="userSpaceOnUse">
+                      <feOffset dy="2" input="SourceAlpha"></feOffset>
+                      <feGaussianBlur stdDeviation="1.5" result="blur"></feGaussianBlur>
+                      <feFlood flood-color="#3d5b8e" flood-opacity="0.4"></feFlood>
+                      <feComposite operator="in" in2="blur"></feComposite>
+                      <feComposite in="SourceGraphic"></feComposite>
+                    </filter>
+                  </defs>
+                  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#icons8_downward_arrow)">
+                    <path id="icons8_downward_arrow-2" data-name="icons8_downward_arrow" d="M4.589,3a1.589,1.589,0,1,0,0,3.178H7.766a14.275,14.275,0,0,1,14.3,14.3v3.178H18.019a1,1,0,0,0-.735,1.688l5.44,5.868a1.324,1.324,0,0,0,1.871,0l5.44-5.868a1,1,0,0,0-.735-1.688H25.243V20.477A17.5,17.5,0,0,0,7.766,3Z" transform="translate(1.5 -0.5)" fill="#fff"></path>
+                  </g>
+                </svg>
+              </h2>
+            </div>
+            <div class="heroMobile__top--image">
+              <img src="../src/images/hero-mobile.svg" alt="" />
+            </div>
+          </div>
+          <div class="heroMobile__bottom">
+            <div class="heroMobile__card">
+              <img src="../src/images/ms.png" alt="" />
+              <button class="card-btn">Ménage simple</button>
+            </div>
+            <div class="heroMobile__card">
+              <img src="../src/images/gm.png" alt="" />
+              <button class="card-btn">Grand Ménage</button>
+            </div>
+            <div class="heroMobile__card">
+              <img src="../src/images/mp.png" alt="" />
+              <button class="card-btn">Ménage Personnalisable</button>
+            </div>
+            <div class="heroMobile__card">
+              <img src="../src/images/ns.png" alt="" />
+              <button class="card-btn">Nettoyage à sec</button>
+            </div>
+            <div class="heroMobile__card">
+              <img src="../src/images/cr.png" alt="" />
+              <button class="card-btn">Cristallisation</button>
+            </div>
+            <div class="heroMobile__card">
+              <img src="../src/images/ds.png" alt="" />
+              <button class="card-btn">Désinfection</button>
+            </div>
+          </div>
+        </section>
+      </header>
+    </div>
+    <section class="about__container">
+      <h2 class="title">Comment ça marche?</h2>
+      <div class="about">
+        <div class="about__img">
+          <img src="../src/images/about.svg" alt="" />
+          <a href="#">
+            <img src="../src/images/player.svg" alt="" />
+          </a>
+        </div>
+        <div class="about__cards">
+          <div class="about__card">
+            <p class="card__num">1</p>
+            <div>
+              <p class="card__title">Choix de service</p>
+              <p class="card__content">Choisis le ou les services qui correspond(ent) le plus à toi besoin avant de passer à l'étape suivante.</p>
+            </div>
+          </div>
+          <div class="about__card">
+            <p class="card__num">2</p>
+            <div>
+              <p class="card__title">Mise en relation</p>
+              <p class="card__content">Notre équipe se charge de te trouver la perle rare. Nous reviendrons vers toi très rapidement.</p>
+            </div>
+          </div>
+          <div class="about__card">
+            <p class="card__num">3</p>
+            <div>
+              <p class="card__title">Profiter</p>
+              <p class="card__content">Aussi tôt dit, Aussi tôt fait, notre professionnel(le) se présente à l'heure souhaitée, vous pouvez garder l'esprit tranquille.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why section -->
+    <div class="why__container">
+      <section class="why">
+        <h2 class="title">Pourquoi Likdom?</h2>
+        <div class="why__img">
+          <img src="../src/images/why.svg" alt="" />
+        </div>
+        <p class="why__text"><span>Lorem ipsum</span> dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <span>sed diam voluptua</span>.</p>
+        <div class="card__container">
+          <!-- card 1 -->
+          <div class="why__card">
+            <div class="why__card--img">
+              <img src="../src/images/why-2.svg" alt="" />
+            </div>
+            <p class="why__card--title">Nos Professions Qualifies</p>
+            <p class="why__card--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          </div>
+          <!-- card 2 -->
+          <div class="why__card">
+            <div class="why__card--img">
+              <img src="/src/images/why-1.svg" alt="" />
+            </div>
+            <p class="why__card--title">Mise a disposition</p>
+            <p class="why__card--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          </div>
+          <!-- card 3 -->
+          <div class="why__card">
+            <div class="why__card--img">
+              <img src="../src/images/why-3.svg" alt="" />
+            </div>
+            <p class="why__card--title">Personnel assuré et déclaré</p>
+            <p class="why__card--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          </div>
+          <!-- card 4 -->
+          <div class="why__card">
+            <div class="why__card--img">
+              <img src="../src/images/why-3.svg" alt="" />
+            </div>
+            <p class="why__card--title">Eco-réspensable</p>
+            <p class="why__card--text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="reviews">
+      <h2 class="title">Avis de notre clients</h2>
+      <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- slide 1 -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="reviewer">
+                <img src="../src/images/reviewer.png" alt="" />
+                <span>Nisrine Moukhtar</span>
+              </div>
+              <div class="comment">
+                <p>"Professionnel service, bon prix. je recommande…"</p>
+              </div>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="reviewer">
+                <img src="../src/images/reviewer.png" alt="" />
+                <span>Nisrine Moukhtar</span>
+              </div>
+              <div class="comment">
+                <p>"Professionnel service, bon prix. je recommande…"</p>
+              </div>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="reviewer">
+                <img src="../src/images/reviewer.png" alt="" />
+                <span>Nisrine Moukhtar</span>
+              </div>
+              <div class="comment">
+                <p>"Professionnel service, bon prix. je recommande…"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev">
+          <!-- left arrow icon  -->
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <!-- right arrow icon  -->
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footer__nav">
+          <p class="footer__nav--title">ENTREPRISE</p>
+          <ul>
+            <li><a href="#"> À propos de nous</a></li>
+            <li><a href="#">Travailler chez Likdom</a></li>
+            <li><a href="#">À toute vitesse</a></li>
+            <li><a href="#">Confidentialité & CGU</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <p class="footer__nav--title">SERVICES</p>
+          <ul>
+            <li><a href="#"> Ménage à domicile</a></li>
+            <li><a href="#"> Ménage BnB </a></li>
+            <li><a href="#">Devenir partenaire ménage</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="company__name">Likdom Entreprise siege</p>
+          <p class="company__location">345 Rue Tacharok Casablanca, Maroc</p>
+          <p class="company__number">+212 5 644 633 733</p>
+          <p class="company__number">+212 6 336 337 338</p>
+        </div>
+        <div class="footer__media">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../src/Js/index.js"></script>
+  </body>
+</html>

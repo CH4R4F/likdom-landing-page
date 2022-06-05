@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.49" cy="0.517" r="0.571" gradientUnits="objectBoundingBox">
+      <stop offset="0.376" stop-color="#261103"/>
+      <stop offset="0.68" stop-color="#431d06"/>
+      <stop offset="1" stop-color="#662c09"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.399" y1="-0.042" x2="0.533" y2="1.056" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#33bef0"/>
+      <stop offset="1" stop-color="#0a85d9"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.501" cy="0.5" r="0.409" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcf54"/>
+      <stop offset="0.261" stop-color="#fdcb4d"/>
+      <stop offset="0.639" stop-color="#f7c13a"/>
+      <stop offset="1" stop-color="#f0b421"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.226" cy="0.018" r="1.24" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c26715"/>
+      <stop offset="0.508" stop-color="#b85515"/>
+      <stop offset="1" stop-color="#ad3f16"/>
+    </radialGradient>
+  </defs>
+  <g id="icons8_person_female" transform="translate(1.684 -3.307)">
+    <path id="Tracé_4578" data-name="Tracé 4578" d="M27.748,9c-13.3,0-16.6,20.31-16.6,20.31,0,3.616,1.776,6.784,5.494,7.623a51.984,51.984,0,0,0,11.1,1.387,52.042,52.042,0,0,0,11.1-1.385c3.719-.839,5.494-4.008,5.494-7.623C44.346,29.31,41.047,9,27.748,9Z" transform="translate(-5.659 -0.806)" fill="url(#radial-gradient)"/>
+    <path id="Tracé_4579" data-name="Tracé 4579" d="M32,30.571c-13.255,0-24,6.474-24,13.532v1.5a2.833,2.833,0,0,0,3,2.631H53a2.833,2.833,0,0,0,3-2.631V44.1C56,37.045,45.256,30.571,32,30.571Z" transform="translate(-9.684 3.069)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_4580" data-name="Tracé 4580" d="M30.778,32.05c0,1.371-2.356,2.891-5.889,2.891S19,33.421,19,32.05V26.965H30.778Z" transform="translate(-2.378 5.314)" fill="#d6a121"/>
+    <path id="Tracé_4581" data-name="Tracé 4581" d="M27.128,8.071c5.492,0,11.128.8,11.128,11.272v7.546c0,3.739-6.815,8.927-11.128,8.927S16,30.628,16,26.89V19.344C16,9.148,21.636,8.071,27.128,8.071Z" transform="translate(-4.554 0.691)" fill="url(#radial-gradient-2)"/>
+    <path id="Tracé_4582" data-name="Tracé 4582" d="M27.792,5c-6.7,0-7.75,3.665-7.75,3.665C17.318,9.045,11,9.887,11,30.017c0,4.643,2.458,6.349,3.358,6.845C11,19.314,23.369,22.147,21.334,11.108c5.226,14.431,21.045.066,20.5,25.329,1.558-1.12,2.75-3.368,2.75-6.421C44.584,13.151,37.349,5,27.792,5Z" transform="translate(-5.508 -1.693)" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

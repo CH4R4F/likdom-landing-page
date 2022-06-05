@@ -1,0 +1,63 @@
+@use "inc/variables" as *;
+@use "inc/resets" as *;
+@use "inc/breakpoint" as *;
+
+// import components
+@use "components/header" as *;
+@use "components/about" as *;
+@use "components/why" as *;
+@use "components/reviews" as *;
+@use "components/footer" as *;
+
+// generale styles
+* {
+  font-family: $primary-font;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $heading-font;
+}
+
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.show {
+  transform: translateX(0);
+}
+header,
+body section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+  color: $primary-clr;
+  text-align: center;
+}
+
+body > section {
+  margin-top: 5rem;
+}
+.to__top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid $primary-clr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

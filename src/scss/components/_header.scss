@@ -1,0 +1,338 @@
+@use "../inc/breakpoint" as *;
+@use "../inc/variables" as *;
+// mobile first styles
+
+// ============== header =============== //
+.header__container {
+  background: url("/src/images/bg-hero-mobile.png");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+header {
+  padding: 25px;
+}
+// burger menu
+.burger {
+  width: 38px;
+  cursor: pointer;
+}
+
+.line {
+  display: block;
+  pointer-events: none;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+  background-color: $primary-clr;
+  transition: all 0.3s linear;
+}
+.line:nth-child(2) {
+  width: 75%;
+}
+.nav,
+.hero {
+  display: none;
+}
+.mobileNav {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background: $primary-clr;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+  transform: translateX(-100%);
+
+  .mobileNav__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    img {
+      width: 200px;
+    }
+    span {
+      font-size: 5rem;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .mobileNav__links {
+    .mobileNav__link {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.heroMobile {
+  margin-top: 3rem;
+
+  .heroMobile__top {
+    display: flex;
+    align-items: center;
+
+    .heroMobile__top--text {
+      img {
+        max-width: 150px;
+      }
+      .hero__title {
+        color: white;
+        font-size: 2rem;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        svg {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .heroMobile__top--image {
+      width: 60%;
+      max-width: 300px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .heroMobile__bottom {
+    display: flex;
+    flex-wrap: wrap;
+
+    .heroMobile__card {
+      flex: 1 0 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 10px;
+      margin: 0.5rem;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(30px);
+      box-shadow: 0px 6px 12px #5493ff4d;
+      border-radius: 20px;
+      text-align: center;
+
+      img {
+        max-width: 80px;
+      }
+
+      button {
+        background: $primary-clr;
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+        border-radius: 40px;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// tablet styles
+
+@include min-width(811px) {
+  .heroMobile {
+    display: none;
+  }
+  .hero {
+    display: block;
+    margin-top: 4rem;
+    .hero__image {
+      display: none;
+    }
+    .hero__intro {
+      h4 {
+        font-size: 2.5rem;
+        max-width: 600px;
+        color: white;
+      }
+      p {
+        color: white;
+        width: 70%;
+      }
+      .intro__card {
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px #c8deff80;
+
+        .icons {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          margin-bottom: 3rem;
+
+          div {
+            flex: 1 0 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            svg {
+              max-width: 100px;
+              cursor: pointer;
+            }
+            p {
+              margin: 0;
+              color: $primary-clr;
+              font-weight: 600;
+            }
+          }
+        }
+        .intro__btns {
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+
+          button {
+            padding: 0.8rem 1.2rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: 500;
+            cursor: pointer;
+
+            &:first-child {
+              border: 3px solid $primary-clr;
+              color: $primary-clr;
+              background: white;
+            }
+            &:last-child {
+              color: white;
+              background: $primary-clr;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header__container {
+    background: url("/src/images/bg-header.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 85% !important;
+  }
+}
+
+// desktop styles
+@include min-width(1000px) {
+  .burger,
+  .mobileNav {
+    display: none;
+  }
+  .header__container {
+    background-size: 100% 100%;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav__logo {
+      max-width: 160px;
+    }
+
+    .nav__btns {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-left: auto;
+
+      a {
+        padding: 0.7em 1.6em;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+
+        &:first-child {
+          color: white;
+          background: $primary-clr-dark;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          background: white;
+          color: $primary-clr;
+        }
+        &:nth-child(4) {
+          background: transparent;
+          color: white;
+          border: 2px solid white;
+        }
+        &:last-child {
+          background-color: #ffcf54;
+          color: $primary-clr-dark;
+        }
+      }
+    }
+  }
+}
+
+@include min-width(1280px) {
+  .hero {
+    display: flex;
+    // align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+
+    .hero__intro {
+      h4 {
+        margin: 0;
+      }
+      p {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      .intro__card {
+        .icons {
+          align-content: center;
+          div {
+            flex-basis: 30%;
+            text-align: center;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    .hero__image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .hero__image--callus {
+        margin: 20px 0;
+
+        p {
+          font-size: 2.4rem;
+          font-weight: bold;
+          color: white;
+          text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          font-style: italic;
+        }
+        a {
+          font-weight: bold;
+          color: white;
+          display: inline-block;
+          letter-spacing: 1px;
+          font-size: 2rem;
+          border-radius: 100px;
+          border: 10px solid white;
+          width: 100%;
+          padding: 1rem 2rem;
+          background: #40c351;
+        }
+      }
+    }
+  }
+}

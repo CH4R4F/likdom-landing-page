@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920"
+    height="368.48" viewBox="0 2000 1920 368.48">
+    <defs>
+        <linearGradient id="bg-linear-section1" x1="0.493" x2="0.493" y2="0.922"
+            gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5493ff" stop-opacity="0.427" />
+            <stop offset="1" stop-color="#5493ff" stop-opacity="0" />
+        </linearGradient>
+    </defs>
+    <path id="Bg"
+        d="M1392.994,0q682.33-.643,1366.684,339.754c8.552,4.254,11.013,13.048,5.5,19.641-3.39,4.05-9.211,6.5-15.464,6.505L18.452,368.48C8.274,368.49.012,362.137,0,354.29c-.008-4.847,3.19-9.362,8.483-11.978Q699.727.657,1392.994,0Z"
+        transform="translate(2410.665 2365.912) rotate(180)" opacity="0.487"
+        fill="url(#bg-linear-section1)" />
+</svg>
